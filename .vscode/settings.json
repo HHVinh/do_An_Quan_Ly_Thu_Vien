@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "khaibaoham.h": "c",
+        "ctype.h": "c",
+        "stdio.h": "c",
+        "thongke.h": "c",
+        "quanlydocgia.h": "c",
+        "quanlysach.h": "c"
+    }
+}

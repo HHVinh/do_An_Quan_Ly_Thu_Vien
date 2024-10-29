@@ -1,36 +1,20 @@
-#ifndef KHAIBOAHAM_H
-#define KHAIBOAHAM_H
+#ifndef KHAI_BAO_HAM_H
+#define KHAI_BAO_HAM_H
+#include "menu.h"
+#include "phieuMuonTraSach.h"
+#include "quanLyDocGia.h"
+#include "quanLySach.h"
+#include "thongKe.h"
 
-// Hàm quản lý độc giả
-void xemDanhSachDocGia();
-void themDocGia();
-void chinhSuaDocGia();
-void xoaDocGia();
-void timKiemDocGiaTheoCMND();
-void timKiemDocGiaTheoHoTen();
-
-// Hàm quản lý sách
-void xemDanhSachSach();
-void themSach();
-void chinhSuaSach();
-void xoaSach();
-void timKiemSachTheoISBN();
-void timKiemSachTheoTen();
-
-// Hàm lập phiếu mượn sách
+void hienThiMenuChinh();
+void quanLyDocGia();
+void quanLySach();
 void lapPhieuMuonSach();
-
-/**
- * Hàm lập phiếu trả sách
- */
 void lapPhieuTraSach();
-
-// Hàm thống kê
-void thongKeSoLuongSach();
-void thongKeSoLuongSachTheoTheLoai();
-void thongKeSoLuongDocGia();
-void thongKeSoLuongDocGiaTheoGioiTinh();
-void thongKeSoSachDangDuocMuon();
-void thongKeDocGiaBiTreHan();
+void thongKe();
+int getDemDocGia(int demDocGia);
+int getDemSach(int demSach);
+int getDemSachMuon(int demSachMuon);
 
 #endif
+
